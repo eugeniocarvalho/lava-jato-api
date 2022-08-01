@@ -1,16 +1,44 @@
 {
-  "posts":[
+  "brand": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "name": "Honda"
+    },
+    {
+      "id": 2,
+      "name": "Ford"
+    },
+    {
+      "id": 3,
+      "name": "Toyota"
+    },
+    {
+      "id": 3,
+      "name": "Ferrari"
     }
   ],
-  "comments" : [
+  "model": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "name": "Supra",
+      "idBrand": 3
+    },
+    {
+      "name": "Civic",
+      "idBrand": "1",
+      "id": 2
+    }
+  ],
+  "service": [
+    {
+      "id": 1,
+      "name": "Lavagem simples",
+      "value": 50
+    },
+    {
+      "name": "Lavagem rápida",
+      "value": 100,
+      "id": 2
     }
   ]
 }
